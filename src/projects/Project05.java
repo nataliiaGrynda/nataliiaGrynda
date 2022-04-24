@@ -32,7 +32,7 @@ public class Project05 {
     String end = str_2.substring(str_2.lastIndexOf(' ') + 1);
     String beginS = str_2.substring(0, str_2.indexOf(' '));
     String middleS = str_2.substring(str_2.indexOf(' '), str_2.lastIndexOf(' '));
-    System.out.println(end + middleS + " " + beginS);
+    System.out.println(end + " " + middleS + " " + beginS);
 
 
     System.out.println("____Task3____");

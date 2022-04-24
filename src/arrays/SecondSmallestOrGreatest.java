@@ -45,8 +45,8 @@ public class SecondSmallestOrGreatest {
       } else if (number < secondSmallest && number != smallest) secondSmallest = number;
     }
 
-
-
+    System.out.println("the smalest number in the array is = " + smallest);
+    System.out.println("the secount smallest number in the array is = " + secondSmallest);
 
 
 

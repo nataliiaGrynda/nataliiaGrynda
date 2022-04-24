@@ -10,23 +10,18 @@ public class StringBuilderExample {
 
     sb.append(123);
     System.out.println(sb);
-sb.insert(2, "$$$");
+    sb.insert(2, "$$$");
     System.out.println(sb);
-sb.reverse();
+    sb.reverse();
     System.out.println(sb);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+    System.out.println(sb.toString());
   }
+
+
+public static boolean isPolindrome(String s){
+    return s.equals(new StringBuffer(s).reverse().toString());
+}
+
 }

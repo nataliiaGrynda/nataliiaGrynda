@@ -46,7 +46,7 @@ public class Project01 {
         int numberOfCountriesIVisited = 6;
         System.out.println("myFavNumber = " + myFavNumber);
         System.out.println("numberOfStatesIVisited = " + numberOfStatesIVisited);
-        System.out.println("numberOfCountriesIVisited =" + numberOfStatesIVisited);
+        System.out.println("numberOfCountriesIVisited =" + numberOfCountriesIVisited);
 
 
 

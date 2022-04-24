@@ -6,7 +6,7 @@ public class _01_Practice_Char_Array {
   public static void main(String[] args) {
 
     /*
-CREATE A CHAR ERRAY AND STORE VALUE AND PRINT
+CREATE A CHAR ARRAY AND STORE VALUE AND PRINT
      */
 
     char[] charValues = {'#', '$', '5', 'A', 'b', 'H'};

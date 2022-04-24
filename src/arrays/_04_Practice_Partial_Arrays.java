@@ -19,7 +19,7 @@ public class _04_Practice_Partial_Arrays {
 
 
     int [] numbers = {10,-3,-7,0,0,7,22};
-   /// int num = 0;
+   //int num = 0;
     for (int number : numbers) {
 
 

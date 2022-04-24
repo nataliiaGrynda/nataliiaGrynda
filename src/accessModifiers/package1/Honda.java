@@ -16,7 +16,7 @@ public class Honda {
   }
   public static final String make = "Honda";
   public String color;
- protected String model;
+  protected String model;
   int year;
   private  double price;
 

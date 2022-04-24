@@ -3,7 +3,7 @@ package projects;
 public class Project03 {
   public static void main(String[] args) {
     System.out.println("_____Task1____");
-/*
+
    String s1 = "24";
    String s2 = "5";
 
@@ -135,7 +135,7 @@ else{
 }
 
 
-
+/*
     TASK-7 (Find if given char is a letter or digit or special character)
     -Assume you are given a single character. (It will be hard-coded)
     -If given char is a letter, then print “Character is a letter”

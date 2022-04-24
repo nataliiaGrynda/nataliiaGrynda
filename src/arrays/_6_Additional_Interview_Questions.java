@@ -2,7 +2,7 @@ package arrays;
 
 import java.util.Arrays;
 
-public class _6_Additional_Inteview_Questions {
+class _6_Additional_Inteview_Questions {
   public static void main(String[] args) {
 
 
@@ -15,7 +15,7 @@ public class _6_Additional_Inteview_Questions {
 
       int max = numbers[0];
        for(int number: numbers){
-        max = Math.max(max,number);
+        max = Math.max(number, max);
 }
 
     System.out.println(max);

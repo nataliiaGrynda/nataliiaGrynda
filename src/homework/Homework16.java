@@ -134,21 +134,23 @@ public class Homework16 {
 
     public static int findClosestTo10(int[] arr) {
 
-      int indx = 0;
-      int distance = Math.abs(arr[0] - indx);
+      int index = 0;
+      int distance = Math.abs(arr[0] - index);
 
       for (int i = 0; i < arr.length; i++) {
-        int dist = Math.abs(arr[i] - indx);
+        int dist = Math.abs(arr[i] - index);
         if (dist < distance) {
-          indx = i;
+          index = i;
           distance = dist;
         }
       }
-      int num = arr[indx];
+      int num = arr[index];
       return num;
     }
 
-    }
+
+  
+}
 
 
 

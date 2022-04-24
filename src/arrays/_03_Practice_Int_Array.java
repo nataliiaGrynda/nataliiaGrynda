@@ -21,10 +21,10 @@ Create an int array and store below data
 Print the array with message "Array not sorted = "
 Print the sorted array with message "Array sorted = "
 
-
+*/
     int[] numbers = {-3, 07, 0, 2, 0, 7, 7, 10, 2, 15};
-    System.out.println("Array not sorted = " + Arrays.toString(numbers));
-
+   // System.out.println("Array not sorted = " + Arrays.toString(numbers));
+/*
     Arrays.sort(numbers);
     System.out.println("Array is sorted = " + Arrays.toString(numbers));
 
@@ -55,11 +55,11 @@ count how many positive negative and zero numbers you have
         System.out.println("Zeros = " + (numbers.length - pos - neg));
 
 
-
+*/
     System.out.println("_____Task2_____");
 
 
-    count how many even and odds
+   // count how many even and odds
      int numEven=0; int numOdd= 0;
      for(int i = 0; i < numbers.length; i++) {
        if (i % 2 == 0) numEven++;
@@ -68,6 +68,6 @@ count how many positive negative and zero numbers you have
 
      }System.out.println("Odds = " + numOdd);
     System.out.println("EVEN = " + numEven);
-*/
+
 
   }}

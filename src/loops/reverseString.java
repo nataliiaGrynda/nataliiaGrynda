@@ -34,8 +34,9 @@ String str = "rrrgggssshhh";
 
     for(int i = name1.length()-1;i >= 0; i--) {
       reversed = name1.charAt(i)+ "";
-      System.out.println(reversed);
+      System.out.print(reversed);
     }
+    /*
       String name2 = "maharbA";
       String reversed1 = "";
       for (int ii = name2.length()-1; ii >= 0; ii--){
@@ -46,7 +47,7 @@ String str = "rrrgggssshhh";
      }
 
 String name = ScannerHelper.getANameFromUser();
-
+*/
 
 
 

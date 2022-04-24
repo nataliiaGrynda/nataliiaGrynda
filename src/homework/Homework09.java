@@ -7,7 +7,7 @@ public class Homework09 {
 
     System.out.println("_____Task1_____\n");
 
-/*
+
     System.out.println("Please enter your name!");
     String name = ScannerHelper.getANameFromUser();
     System.out.println("The length of the name is = " + name.length());
@@ -46,7 +46,7 @@ public class Homework09 {
     } else {
       System.out.println("The green and red are not in the list");
     }
-*/
+
 
     System.out.println("_____Task4_____");
 

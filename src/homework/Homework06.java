@@ -50,7 +50,7 @@ public class Homework06 {
         double divideBoth = 1_250 / 62.50;
         int divideBothInt = (int)divideBoth; // pick the object name that i wanted to cast
 
-        System.out.println((int)divideBoth);
+        System.out.println((int)divideBothInt);
 
 
         System.out.println("------Task5------");

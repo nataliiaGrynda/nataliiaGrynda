@@ -37,7 +37,7 @@ false
       }
     }
     System.out.println(findBoard);
-    /*
+
     System.out.println("\n--------TASK-3---------\n");
 
         Arrays.sort(objects); // My array is sorted "Keyboard", "Mouse","Mouse", "Remote", "iPad"
@@ -48,7 +48,7 @@ false
         System.out.println(Arrays.binarySearch(objects, "Apple") >= 0); // false
         System.out.println(Arrays.binarySearch(objects, "Keyboard") >= 0); // true
         System.out.println(Arrays.binarySearch(objects, "Key") >= 0); // false
-     */
+
 
     System.out.println("____Task5______");
 /*
@@ -74,6 +74,9 @@ false
       Arrays.sort(arr);
 
     System.out.println(Arrays.binarySearch(arr, 5)>= 0);
-
+    System.out.println(Arrays.binarySearch(arr, 0)>= 0);
+    System.out.println(Arrays.binarySearch(arr, 45)>=0);
+    System.out.println(Arrays.binarySearch(arr, 3)>= 0);
+    System.out.println(Arrays.binarySearch(arr, -7)>= 0);
   }
 }

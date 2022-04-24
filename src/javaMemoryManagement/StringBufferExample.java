@@ -16,5 +16,12 @@ sb.reverse();
 sb.insert(0, "Hey");
     System.out.println(sb);
 
+
+
+
+
+
+
+
   }
 }
