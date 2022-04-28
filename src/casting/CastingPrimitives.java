@@ -12,7 +12,7 @@ public class CastingPrimitives {
 
 
         int mySecondInt = 'b';  // implicit
-        char myChar = (char) 56;// you dont have to cast because they are equal
+        char myChar = (char) 56;// you don't have to cast because they are equal
 
 
         char mySecondChar = 56;
