@@ -1,10 +1,6 @@
 package src.enums;
 
 public class Practice01 {
-  /*
-
-   */
-
 
   public static void main(String[] args) {
     Constants.Frequencies frequency = Constants.Frequencies.YEARLY;

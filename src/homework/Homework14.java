@@ -7,7 +7,7 @@ public class Homework14 {
   public static void main(String[] args) {
 
     System.out.println("_____Task1_____");
-    int[] numbers = {-4, -0, -7, 0, 5, 10, 45, 45};
+    int[] numbers = {-4, 45, -7, 0, 0, 10, 45, 45};
 
     boolean findDuplicate = false;
     for (int i = 0; i < numbers.length - 1; i++) {
@@ -33,10 +33,10 @@ public class Homework14 {
         if (words[i].equalsIgnoreCase(words[j])) {
           System.out.println(words[i]);// i print the first Z
           isDuplicate = true;
-          break;// as soon i find duplikate break it
+          break;// as soon i find duplicate break it
         }
       }
-      if (!isDuplicate) break;// this break help to get read of secound match
+      if (!isDuplicate) break;// this break helps to get read of second match
 
     }
     if (!isDuplicate) System.out.println("There is no duplicates");
@@ -54,7 +54,7 @@ public class Homework14 {
         }
       }
     }
-  // System.out.println(s1.isEmpty()) ? "There is no duplicates: s1";
+  //System.out.println(s1.isEmpty()) ? "There is no duplicates: s1";
 
 
     System.out.println("_____Task4______");

@@ -5,7 +5,7 @@ public class AutoBoxingAndUnboxing {
     public static void main(String[] args){
 
         // autoboxing(primitive to object --> {wrapper class])
-        // always implisit auto and unboxing
+        // always implicit auto and unboxing
         float num = 45.6F;
         Float numFloat = num;
 
@@ -14,9 +14,9 @@ public class AutoBoxingAndUnboxing {
         Character character = 'D';
         char characterPrimitive = character;
 
-//note autoboxing and unboxing heppens inplicitly. no data loss. (only for their dataTypes)
+//note autoboxing and unboxing happens implicitly. no data loss. (only for their dataTypes)
         //autoboxing primitive to wrapperCLass,object, class
-        //unboxing wrepper class or object to primitives.
+        //unboxing wrapper class or object to primitives.
 
 
 

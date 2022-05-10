@@ -13,7 +13,7 @@ public class ConvertingListToEachOther {
     Array list to LinkedList
     LinkedList to ArrayList
     Vector - ArrayList
-    ArryaList - Vector
+    ArrayList - Vector
 
      */
 
@@ -27,7 +27,7 @@ public class ConvertingListToEachOther {
     System.out.println("The linkedList = " + numbers2);
 
 
-//CONVERTING LINKED LIST TO AARAYLIST
+//CONVERTING LINKED LIST TO ARRAYLIST
 
     ArrayList<Integer> numbers3 = new ArrayList<>(numbers2);
 

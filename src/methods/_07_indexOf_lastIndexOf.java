@@ -21,6 +21,6 @@ public class _07_indexOf_lastIndexOf {
 
     sentense.indexOf("Chicago");//7
     sentense.indexOf("Miami");//19
-sentense.indexOf("chicago"); //-1 ---> because it doesent exist in our string
+sentense.indexOf("chicago"); //-1 ---> because it doesn't exist in our string
   }
 }

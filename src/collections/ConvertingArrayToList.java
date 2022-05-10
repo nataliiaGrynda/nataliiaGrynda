@@ -6,10 +6,8 @@ public class ConvertingArrayToList {
   public static void main(String[] args) {
 
     /*
-    create a list and store below data list is a futher arrayList
+    create a list and store below data list is a further arrayList
      */
-
-
     ArrayList<String> countries = new ArrayList<>();
     countries.add("USA");
     countries.add("Brasilia");
@@ -23,7 +21,6 @@ public class ConvertingArrayToList {
 
     System.out.println("___way to convert array to list______");
 
-
     String[] countrie = {"USA", "Argentina", "Brasilia"};
     Arrays.asList(countrie);
     List<String> countries1 = new ArrayList<>(Arrays.asList(countrie));
@@ -33,12 +30,11 @@ public class ConvertingArrayToList {
     List<String> countries3 = new ArrayList<>();
     List<String> countries4 = new LinkedList<>();
 
-    Collections.addAll(countries3, countrie);// this method adds all arey elements to
+    Collections.addAll(countries3, countrie);// this method adds all array elements to
     Collections.addAll(countries4, countrie);
 
     System.out.println(countries3);
     System.out.println(countries4);
-
 
     Integer[] numbers = {1, 2, 3, 4, 5};
     List<Integer> numbersList = new ArrayList<>();
@@ -48,11 +44,6 @@ public class ConvertingArrayToList {
 
     }
     System.out.println(numbersList);
-
-
-
-
-
 
 
   }}

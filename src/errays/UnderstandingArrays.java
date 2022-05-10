@@ -11,10 +11,10 @@ public class UnderstandingArrays{
     String name ;
     name = "John";
     int age = 45;
-   System.out.println("Name is = " + name);
-  System.out.println("Age is = " + age);
+    System.out.println("Name is = " + name);
+    System.out.println("Age is = " + age);
 
-   // String studentName = "Alex, Abe, Yakeen";
+    String studentName = "Alex, Abe, Yakeen";
     String [] names = {"Alex", "Abe", "Yakeen"};
     int [] ages = {20,21,22};
     char [] favCharacters = {'a', '%', 'G'};

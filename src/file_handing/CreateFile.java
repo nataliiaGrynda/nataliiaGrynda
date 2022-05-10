@@ -5,9 +5,6 @@ import java.io.File;
 public class CreateFile {
   public static void main(String[] args) {
 
-
-
-
     // To create a file we use some classes
 
     File myFile = new File("myFirstFile.xls");

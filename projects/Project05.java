@@ -13,8 +13,8 @@ public class Project05 {
     if (str.length() < 8) {
       System.out.println("This string does not have 8 characters");
     } else {
-    }
 
+    }
     String endFour = str.substring(str.length() - 4);
     String begin = str.substring(0, str.length() / 2 - 1);
     String middle = str.substring(str.length() / 2 - 1, str.length() - 4);

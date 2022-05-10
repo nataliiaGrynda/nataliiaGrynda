@@ -18,8 +18,8 @@ public class Practice01 {
     System.out.println("Hey, please enter your year of birth");
     int YOB = scan.nextInt();
 
-    Date date = new Date();
-    SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy");
+   Date date = new Date();
+   SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy");
 
     int currentYear = Integer.parseInt(dateFormat.format(date));
 
