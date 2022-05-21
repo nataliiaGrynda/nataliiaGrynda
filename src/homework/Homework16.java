@@ -1,10 +1,13 @@
 package homework;
 
+import java.util.Arrays;
+
 public class Homework16 {
   public static void main(String[] args) {
     String str = "Selenium is the most common UI\n" +
       "  automation tool.   ";
     System.out.println(countWords(str));
+    System.out.println(Arrays.toString(Homework16.no3(new int[]{3,4,5,6})));
   }
 /*
   Requirement:
@@ -29,24 +32,30 @@ public class Homework16 {
   public static int countWords(String str) {
     str = "   Java is fun   ".trim();
     int count = 0;
-
     for (int i = 0; i < str.length(); i++) {
       if (str.charAt(i) == ' ') count++;
     }
+    return count + 1;
+  }
 
 
-        return count + 1;
-
-
+  /*-Create a method called no3or5()
+  -This method will take an int array argument and it will
+  return a new array with some elements replaced as below
+    If element can be divided by 5, replace it with 99
+    If element can be divided by 3, replace it with 100
+    If element can be divided by both 3 and 5, replace it with
+  101*/
+  public static int[] no3(int[] arr) {
+    for (int i = 0; i < arr.length; i++) {
+      if (arr[i] % 3 == 0 && arr[i] % 5 == 0) arr[i] = 101;
+      else if (arr[i] % 3 == 0) arr[i] = 100;
+      else if (arr[i] % 5 == 0) arr[i] = 99;
     }
-
-
-
-
-
+    return arr;
+  }
 
 }
-
 
 
 

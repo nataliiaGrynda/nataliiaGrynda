@@ -1,5 +1,4 @@
 package src.homework;
-
 import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.Date;
@@ -55,7 +54,7 @@ Expected Result 5: “lech GlobaT”
       if(str.trim().length() < 2 ){
         return "";
       }
-      return str.substring(str.length()-1) + str.substring(str.length()/2-1,str.length()-1) + str.substring(0,1);
+      return str.substring(str.length()-1) + str.substring(str.length()-1,str.length()-1) + str.substring(0,1);
     }
 /*
 Create a method called hasVowel()
@@ -216,7 +215,7 @@ Expected Result 3:  5
 
   public static void main(String[] args) {
     System.out.println(HomeworkR4.noSpace("i like java and"));
-    System.out.println(HomeworkR4.replaceFirstLast("Hello"));
+    System.out.println(HomeworkR4.replaceFirstLast("TechGlobal"));
     System.out.println(HomeworkR4.hasVowel("java"));
     checkAge(2002);
     System.out.println(HomeworkR4.countPrime(new int[]{-3,5,4,0,11}));
