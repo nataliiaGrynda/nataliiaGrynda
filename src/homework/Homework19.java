@@ -84,6 +84,9 @@ int.
       return findMiddle[1];
     }
 
+
+
+
   /*
       Requirement:
   -Create a method called no13()
@@ -125,7 +128,7 @@ Expected Result 3: [120, 1, 720]
        if(arr[i] == 0 || arr[i] == 1) arr[i] = 1;
        else{
          int number = arr[i];
-         for(int j = 2; j < number; j++){
+         for(int j = 2; j < number; j++){// 2 is the number that will make some change... 1 will not make any change
            arr[i] *= j;
          }
 
@@ -158,6 +161,18 @@ NOTE: Assume length will always be more than zero.
     arr[2] = specials;
     return arr;
   }
+/*
+public static String[] categorizeCharacters(String str){
+    String[] catg = {"", "", ""};
 
+    for (char character : str.toCharArray()) {
+        if (Character.isLetter(character)) catg[0] += character + "";
+        else if (Character.isDigit(character)) catg[1] += character + "";
+        else catg[2] += character + "";
+    }
+
+    return catg;
+}
+ */
 
 }
