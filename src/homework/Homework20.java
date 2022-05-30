@@ -231,17 +231,15 @@ Hint: Use binarySearch() for easy solution
     Expected Result 3: ["C#"]
 
    */
-  public static ArrayList<String> removeAndReturnCommons(ArrayList<String> arr1, ArrayList<String> arr2){
-    ArrayList<String> remove = new ArrayList<>();
-    for(int i = 0; i < arr1.size();i++){
-      for(int j = 0;j < arr2.size();j++){
-        if(arr1.get(i).equals(arr2.get(j))){
-          remove.add(arr1.get(i));
-        }
-      }
-    }
-    return remove;
-  }
+     public static ArrayList<String> removeAndReturnCommons(ArrayList<String> arr1, ArrayList<String> arr2 ){
+       ArrayList<String> commonWords = new ArrayList<>();
+       for (String value : arr1) {
+         for (String s : arr2) {
+           if (value.equals(s) && !commonWords.contains(s)) commonWords.add(s);
+         }
+       }
+       return commonWords;
+     }
 
 /*
 Requirement:
