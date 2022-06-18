@@ -4,10 +4,10 @@ public class Homework21 {
 
   public static void main(String[] args) {
 
-    System.out.println( fizzBuzz1(18));
-    System.out.println(fizzBuzz2(15));
-    System.out.println(findSumNumbers("b110c045d"));
-    System.out.println(findBiggestNumber("ab110c045d"));
+   // System.out.println( fizzBuzz1(18));
+  //  System.out.println(fizzBuzz2(15));
+  //  System.out.println(findSumNumbers("b110c045d"));
+  //  System.out.println(findBiggestNumber("ab110c045d"));
     System.out.println(countSequenceOfCharacters("abbcca"));
   }
 /*
@@ -107,16 +107,16 @@ Expected Result 4: 525
  */
 
   public static int findSumNumbers(String str) {
-    int sum = 0;
-    String temp = "0";
+    int sum = 0;//adding
+    String temp = "";// for getting numbers seperatly
     for (int i = 0; i < str.length(); i++) {
-      if (Character.isDigit(str.charAt(i))) temp += str.charAt(i);
-      else {
-        sum += Integer.parseInt(temp);
-        temp = "0";
+      if (Character.isDigit(str.charAt(i))) temp += str.charAt(i) + "";
+      if(i < str.length()-4 && !Character.isDigit(str.charAt(i + 5))) {
+        sum += Integer.parseInt(temp);//
+        temp = "";//reseting my container fro the next number, if we dont reset it will keep the number from the before
       }
     }
-    return sum + Integer.parseInt(temp);
+    return sum;
   }
 
   /*
@@ -148,7 +148,6 @@ Expected Result 4: 525
     }
     return Math.max(biggest, num);
   }
-
 /*
 Create a method called
 countSequenceOfCharacters()
@@ -167,8 +166,8 @@ Test Data 4: “aaAAa”
 Expected Result 4: “2a2A1a”
 */
    public static String countSequenceOfCharacters(String str) {
-     String sequence = "";
-     int count = 1;
+     String sequence = "";//to pull the letter
+     int count = 1;//count
      for (int i = 0; i < str.length(); i++) {
        for (int j = i + 1; j < str.length(); j++) {
          if (str.charAt(i) == str.charAt(j))
@@ -182,4 +181,21 @@ Expected Result 4: “2a2A1a”
      }
      return sequence;
    }
+   /*
+   public static String countSequenceOfCharacters(String string){
+    StringBuilder result = new StringBuilder();
+    int count = 0;
+    for (int i = 0; i < string.length(); i++) {
+        if (i < string.length()-1 && string.charAt(i) == string.charAt(i+1)){
+            count ++;
+        }
+        else {
+            count ++;
+            result.append(count).append(string.charAt(i));
+            count = 0;
+        }
+    }
+    return result.toString();
+}
+    */
    }
