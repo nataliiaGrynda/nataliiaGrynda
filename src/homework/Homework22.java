@@ -56,6 +56,35 @@ Expected Result 3: [0, 1, 1, 2, 3, 5, 8]
     }
     return array;
   }
+  /*
+   public static int[] fibonacciSeries1(int n){
+
+          int[] fib;
+            if (n >= 0)fib = new int[n];
+            else fib = new int[0];
+
+  int[] fib = new int[n];
+
+        if (n > 0) fib[0] = 0;
+        if (n > 1) fib[1] = 1;
+
+//        fib[2] = fib[1] + fib[0];
+//        fib[3] = fib[2] + fib[1];
+//        fib[4] = fib[3] + fib[2];
+
+  // n = 4 ==> [0, 1, 1, 2]
+
+        for (int i = 0; i < n - 2; i++) {
+    // n = 4
+    // i = 0 => 3rd number is found
+    // i = 1 => 4th number is found
+    fib[i + 2] = fib[i + 1] + fib[i];
+  }
+
+        return fib;
+}
+   */
+
 /*
 Create a method called fibonacciSeries2()
 -This method will take an int argument as n, and it will
@@ -81,6 +110,28 @@ Expected Result 3: 13
     }
     return array[array.length - 1];
   }
+  /*
+  public static int fibRecursive(int n) {
+    if (n <= 1) return n;
+    return fibonacciSeries2(n - 1) + fibonacciSeries2(n - 2);
+}
+/*
+public static int fibonacciSeries2Way2(int n){
+    // 0 1 1 2 3 5
+    int n0 = 0, n1 = 1, n2 = 0;
+    for (int i = 1; i < n - 1; i++) {
+        n2 = n0 + n1;
+        n0 = n1;
+        n1 = n2;
+    }
+    return n2;
+}
+   */
+   /*
+   public static int fibonacciSeries2(int n){
+    return fibonacciSeries1(n)[n -1];
+}
+    */
   //TASK 3
 /*
 Create a method called findUniques()
@@ -104,14 +155,13 @@ Expected Result 4: []
     boolean contains = false;
     for (int i = 0; i < array1.length; i++) {
       for (int j = 0; j < array2.length; j++) {
-        if (array1[i] == array2[j]) {
+        if (array1[i] == array2[j]) {//compare them
           contains = true;
           break;
         }
       }
       if (!contains) list.add(array1[i]);
       else contains = false;
-
     }
     int[] array = new int[list.size()];
     for (int i = 0; i < list.size(); i++) {
